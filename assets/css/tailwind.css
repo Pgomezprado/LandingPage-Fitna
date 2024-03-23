@@ -1406,7 +1406,11 @@ body {
 
 .bg-primary{
   --tw-bg-opacity: 1;
-  background-color: rgb(8 13 8/ var(--tw-bg-opacity));
+  background-color: rgb(0 0 0/ var(--tw-bg-opacity));
+}
+
+.bg-primary-green{
+  background-color: rgb(109 243 88);
 }
 
 .bg-primary\/5{
@@ -1430,9 +1434,17 @@ body {
 .bg-transparent{
   background-color: transparent;
 }
+.bg-green{
+  --tw-bg-opacity: 1;
+  background-blend-mode: rgb(109 243 88/ var(--tw-bg-opacity));
+}
+
+.bg-green-new{
+  background-color: rgba(109 243 88);
+}
 
 .bg-white{
-  --tw-bg-opacity: 1;
+  --tw-bg-opacity: 0;
   background-color: rgb(109 243 88 / var(--tw-bg-opacity));
 }
 
@@ -1836,7 +1848,7 @@ body {
 
 .text-dark{
   --tw-text-opacity: 1;
-  color: rgb(17 25 40 / var(--tw-text-opacity));
+  color: rgb( 0 0 0);
 }
 
 .text-dark-3{
@@ -1861,7 +1873,7 @@ body {
 
 .text-primary{
   --tw-text-opacity: 1;
-  color: rgb(233 243 232 / var(--tw-text-opacity));
+  color: rgb(8 13 8 / var(--tw-text-opacity));
 }
 
 .text-white{
@@ -1984,7 +1996,7 @@ body {
 .sticky{
   position: fixed;
   z-index: 9999;
-  background-color: rgb(255 255 255 / 0.8);
+  background-color: rgb(0 0 0 / 0.8);
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
@@ -2019,12 +2031,12 @@ body {
 
 .sticky #navbarCollapse li > a{
   --tw-text-opacity: 1;
-  color: rgb(17 25 40 / var(--tw-text-opacity));
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .sticky #navbarCollapse li > a:hover{
   --tw-text-opacity: 1;
-  color: rgb(55 88 249 / var(--tw-text-opacity));
+  color: rgb(109 243 88 / var(--tw-text-opacity));
   opacity: 1;
 }
 
@@ -2050,12 +2062,12 @@ body {
 
 .sticky .loginBtn{
   --tw-text-opacity: 1;
-  color: rgb(17 25 40 / var(--tw-text-opacity));
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .sticky .loginBtn:hover{
   --tw-text-opacity: 1;
-  color: rgb(55 88 249 / var(--tw-text-opacity));
+  color: rgb(109 243 88 / var(--tw-text-opacity));
   opacity: 1;
 }
 
@@ -2076,16 +2088,7 @@ body {
   color: rgb(8 13 8 / var(--tw-text-opacity));
 }
 
-.sticky .signUpBtn:hover{
-  --tw-bg-opacity: 1;
-  background-color: rgb(57 145 46 / var(--tw-bg-opacity));  /* Boton Inicio*/
-  --tw-text-opacity: 1;
-  color: rgb(18 18 18/ var(--tw-text-opacity));
-}
-
-.sticky #themeSwitcher ~ span{
-  --tw-text-opacity: 1;
-  color: rgb(17 25 40 / var(--tw-text-opacity));
+.sticky .signUpBtn:hover{ /* Boton Inicio*/
 }
 
 :is(.dark .sticky #themeSwitcher ~ span){
@@ -2215,7 +2218,7 @@ body {
 
 .hover\:bg-primary:hover{
   --tw-bg-opacity: 1;
-  background-color: rgb(55 88 249 / var(--tw-bg-opacity));
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-white:hover{
